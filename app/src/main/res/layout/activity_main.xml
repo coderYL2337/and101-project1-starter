@@ -21,13 +21,13 @@
 
             <ImageView
                 android:id="@+id/profile_image"
-                android:layout_width="@dimen/profile_image_size"
-                android:layout_height="@dimen/profile_image_size"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="214dp"
+                android:layout_height="200dp"
                 android:layout_marginTop="60dp"
-                android:src="@drawable/avatar_9"/>
+                android:src="@drawable/avatar_8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/profile_name"
@@ -52,7 +52,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="10dp"
                 android:text="@string/profile_bio_text"
-                android:textSize="16sp"/>
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"/>
 
             <TextView
                 android:id="@+id/profile_hobby_header"
@@ -74,7 +75,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="10dp"
-                android:text="@string/profile_hobby_first_text"
+                android:text="🥇Swimming"
                 android:textSize="15sp"/>
 
             <TextView
